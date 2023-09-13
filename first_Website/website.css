@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(248, 178, 28, 1);
+
+}
+h1, h3{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.pages{
+    box-shadow: 3px 3px 5px gray;
+    width: 25%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10% 50px 0 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description{
+    width: 80%;
+    font-size: 18px;
+    margin: 10px auto;
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    background-color: #f2511b;
+    height: 30%;
+}
+h4{
+    padding: 10px auto;
+}
