@@ -40,5 +40,8 @@ h3{
     height: 30%;
 }
 h4{
-    padding: 10px auto;
+    text-align: center;
+}
+.title:hover{
+    background-color: #f46e41;
 }
