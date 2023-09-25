@@ -69,7 +69,7 @@ body{
   .page_title{
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
-    margin: 0 250px;
+    margin: 0 8rem;
     width: 500px;
     min-width: 200px;
   }
@@ -95,15 +95,17 @@ body{
   }
   .flipcard_container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 10% 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    margin: 5% auto;
+    height: 50rem;
+    width: 80rem;
   }
   .flipcard{ /* the container of the flipcard*/
     position: relative;
     height: 350px;
     width: 500px;
-    justify-content: center;
+    justify-content: space-around;
   }
   .flipcard_inner{ /*styling for the flip card*/
     position: absolute;
@@ -134,13 +136,13 @@ body{
     text-align: center;
   }
   .flipcard_back{
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      background-color:white;
-      backface-visibility: hidden;
-      transform: rotateY(180deg);
-      border-radius: 20px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    border-radius: 20px;
   }
   .flipcard_back p{
     text-align: center;
@@ -164,7 +166,7 @@ body{
   }
   .movies_series img{
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin: 0 10px;
   }
   .thriller, 
@@ -193,8 +195,8 @@ body{
     margin: 0 10px;
   }
   .comment img{
-    width: 70%;
-    height: 500px;
+    width: 20rem;
+    height: 30rem;
   }
   .comment p{ 
     font-family: 'Raleway', sans-serif;
